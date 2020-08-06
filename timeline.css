@@ -1,4 +1,5 @@
 
+
 /* -------------------------------- 
 
 Main Components 
@@ -16,6 +17,14 @@ Main Components
 
 .cd-horizontal-timeline ol{
   list-style-type:none;
+} 
+
+.cd-horizontal-timeline ul{
+  list-style-type:none;
+} 
+
+.cd-horizontal-timeline a{
+  text-decoration:none;
 } 
 
 .cd-horizontal-timeline::before {
@@ -116,6 +125,7 @@ Main Components
   color: white;
   width: 200px;
   margin-top: 8px;
+  font-weight: 400;
 }
 .cd-horizontal-timeline .events a::after {
   /* this is used to create the event spot */
@@ -181,15 +191,14 @@ Main Components
   height: 60px;
   width: 60px;
   background-color: white;
-  /* replace text with an icon */
-  overflow: hidden;
-  color: transparent;
-  text-indent: 100%;
-  white-space: nowrap;
-  -webkit-transition: border-color 0.3s;
-  -moz-transition: border-color 0.3s;
-  transition: border-color 0.3s;
+  font-size: 28px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0px;
+  color: #092056;
 }
+
 .cd-timeline-navigation a::after {
   /* arrow icon */
   content: '';
@@ -227,6 +236,7 @@ Main Components
 .cd-timeline-navigation a.inactive {
   background-color: #1D5CFF;
   cursor: not-allowed;
+  color: white;
 }
 .cd-timeline-navigation a.inactive::after {
   background-position: 0 -16px;
