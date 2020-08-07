@@ -1,5 +1,4 @@
 
-
 /* -------------------------------- 
 
 Main Components 
@@ -75,7 +74,7 @@ Main Components
   top: 49px;
   height: 2px;
   /* width will be set using JavaScript */
-  background: #fff;
+  background: #ffffff73;
   -webkit-transition: -webkit-transform 0.4s;
   -moz-transition: -moz-transform 0.4s;
   transition: transform 0.4s;
