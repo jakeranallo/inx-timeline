@@ -414,3 +414,18 @@ Main Components
     display: none;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .cd-timeline-navigation {
+    display: none;
+  }
+.cd-horizontal-timeline .events-wrapper {
+  overflow: scroll;
+}
+  .cd-horizontal-timeline .events-wrapper::before {
+    display: none;
+  }
+    .cd-horizontal-timeline .events-wrapper::after {
+    display: none;
+  }
+}
