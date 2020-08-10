@@ -408,3 +408,9 @@ Main Components
     transform: translateX(0%);
   }
 }
+
+@media only screen and (min-width: 1500px) {
+  .cd-timeline-navigation {
+    display: none;
+  }
+}
