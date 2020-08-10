@@ -428,7 +428,7 @@ Main Components
     .cd-horizontal-timeline .events-wrapper::after {
     display: none;
   }
-  .timeline {
+  .cd-horizontal-timeline .timeline {
     height: 180px;
   }
 }
